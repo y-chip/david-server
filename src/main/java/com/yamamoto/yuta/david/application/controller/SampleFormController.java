@@ -1,10 +1,7 @@
 package com.yamamoto.yuta.david.application.controller;
 
 import com.yamamoto.yuta.david.application.resource.SampleForm;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/sample-form")
@@ -16,6 +13,11 @@ public class SampleFormController {
 
         SampleForm sampleForm = new SampleForm();
         sampleForm.setString("hoge");
+        return sampleForm;
+    }
+
+    @PostMapping
+    public SampleForm post(@RequestBody SampleForm sampleForm) {
         return sampleForm;
     }
 }
