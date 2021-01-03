@@ -27,10 +27,22 @@ public class LoggingAspect {
         Signature sig = jp.getSignature();
 
         if (jp.getArgs() == null || jp.getArgs().length == 0) {
-            logger.info(String.format("Execute method '%s.%s'", sig.getDeclaringTypeName(), sig.getName()));
-        } else {
-            logger.info(String.format("Execute method '%s.%s' (args: %s)", sig.getDeclaringTypeName(), sig.getName(), Arrays.toString(jp.getArgs())));
+
+            logger.info(
+                    String.format("Execute method '%s.%s (full name: %s)'",
+                            sig.getDeclaringType().getSimpleName(),
+                            sig.getName(),
+                            sig.getDeclaringTypeName()));
+            return;
         }
+
+        logger.info(
+                String.format("Execute method '%s.%s' (full name: %s) (args: %s)",
+                        sig.getDeclaringType().getSimpleName(),
+                        sig.getName(),
+                        sig.getDeclaringTypeName(),
+                        Arrays.toString(jp.getArgs())));
+
     }
 
     @AfterReturning(pointcut = "pointcut()", returning = "value")
@@ -38,7 +50,12 @@ public class LoggingAspect {
 
         Signature sig = jp.getSignature();
 
-        logger.info(String.format("Return from method '%s.%s' (value: %s)", sig.getDeclaringTypeName(), sig.getName(), value));
+        logger.info(
+                String.format("Return from method '%s.%s' (full name: %s) (value: %s)",
+                        sig.getDeclaringType().getSimpleName(),
+                        sig.getName(),
+                        sig.getDeclaringTypeName(),
+                        value));
     }
 
     @AfterThrowing(pointcut = "pointcut()", throwing = "exception")
@@ -49,6 +66,11 @@ public class LoggingAspect {
         StringWriter stackTrace = new StringWriter();
         exception.printStackTrace(new PrintWriter(stackTrace));
 
-        logger.info(String.format("Throw Exception from method '%s.%s' (stackTrace: %s)", sig.getDeclaringTypeName(), sig.getName(), stackTrace.toString()));
+        logger.info(
+                String.format("Throw Exception from method '%s.%s' (full name: %s) (stackTrace: %s)",
+                        sig.getDeclaringType().getSimpleName(),
+                        sig.getName(),
+                        sig.getDeclaringTypeName(),
+                        stackTrace.toString()));
     }
 }
