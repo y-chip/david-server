@@ -1,6 +1,7 @@
 package com.yamamoto.yuta.david.application.controller;
 
-import com.yamamoto.yuta.david.application.resource.SampleForm;
+import com.yamamoto.yuta.david.domain.service.SampleFormService;
+import com.yamamoto.yuta.david.infrastructure.repository.entity.Sample;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -8,16 +9,19 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("http://localhost:4200")
 public class SampleFormController {
 
-    @GetMapping
-    public SampleForm get() {
+    private final SampleFormService service;
 
-        SampleForm sampleForm = new SampleForm();
-        sampleForm.setString("hoge");
-        return sampleForm;
+    public SampleFormController(SampleFormService service) {
+        this.service = service;
+    }
+
+    @GetMapping
+    public Sample get() {
+        return service.get();
     }
 
     @PostMapping
-    public SampleForm post(@RequestBody SampleForm sampleForm) {
-        return sampleForm;
+    public Sample save(@RequestBody Sample sample) {
+        return service.save(sample);
     }
 }
