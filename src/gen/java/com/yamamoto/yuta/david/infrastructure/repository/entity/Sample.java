@@ -10,7 +10,7 @@ public class Sample {
      *
      * @mbg.generated
      */
-    @Schema(required = true)
+    @Schema(required = true, nullable = true)
     private Integer id;
 
     /**
@@ -20,7 +20,7 @@ public class Sample {
      *
      * @mbg.generated
      */
-    @Schema(required = true)
+    @Schema(required = true, nullable = true)
     private String string;
 
     /**
