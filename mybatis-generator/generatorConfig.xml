@@ -10,6 +10,7 @@
     <context id="simple" targetRuntime="MyBatis3">
 
         <plugin type="com.yamamoto.yuta.david.plugins.ReturnOptionalPlugin"/>
+        <plugin type="com.yamamoto.yuta.david.plugins.Swagger3Plugin"/>
 
         <commentGenerator>
             <property name="suppressDate" value="true"/>
