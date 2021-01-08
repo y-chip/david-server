@@ -1,5 +1,7 @@
 package com.yamamoto.yuta.david.infrastructure.repository.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class Sample {
     /**
      *
@@ -8,6 +10,7 @@ public class Sample {
      *
      * @mbg.generated
      */
+    @Schema(required = true)
     private Integer id;
 
     /**
@@ -17,6 +20,7 @@ public class Sample {
      *
      * @mbg.generated
      */
+    @Schema(required = true)
     private String string;
 
     /**
