@@ -254,73 +254,203 @@ public class SampleExample {
             return (Criteria) this;
         }
 
-        public Criteria andStringIsNull() {
-            addCriterion("STRING is null");
+        public Criteria andTextIsNull() {
+            addCriterion("TEXT is null");
             return (Criteria) this;
         }
 
-        public Criteria andStringIsNotNull() {
-            addCriterion("STRING is not null");
+        public Criteria andTextIsNotNull() {
+            addCriterion("TEXT is not null");
             return (Criteria) this;
         }
 
-        public Criteria andStringEqualTo(String value) {
-            addCriterion("STRING =", value, "string");
+        public Criteria andTextEqualTo(String value) {
+            addCriterion("TEXT =", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringNotEqualTo(String value) {
-            addCriterion("STRING <>", value, "string");
+        public Criteria andTextNotEqualTo(String value) {
+            addCriterion("TEXT <>", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringGreaterThan(String value) {
-            addCriterion("STRING >", value, "string");
+        public Criteria andTextGreaterThan(String value) {
+            addCriterion("TEXT >", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringGreaterThanOrEqualTo(String value) {
-            addCriterion("STRING >=", value, "string");
+        public Criteria andTextGreaterThanOrEqualTo(String value) {
+            addCriterion("TEXT >=", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringLessThan(String value) {
-            addCriterion("STRING <", value, "string");
+        public Criteria andTextLessThan(String value) {
+            addCriterion("TEXT <", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringLessThanOrEqualTo(String value) {
-            addCriterion("STRING <=", value, "string");
+        public Criteria andTextLessThanOrEqualTo(String value) {
+            addCriterion("TEXT <=", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringLike(String value) {
-            addCriterion("STRING like", value, "string");
+        public Criteria andTextLike(String value) {
+            addCriterion("TEXT like", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringNotLike(String value) {
-            addCriterion("STRING not like", value, "string");
+        public Criteria andTextNotLike(String value) {
+            addCriterion("TEXT not like", value, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringIn(List<String> values) {
-            addCriterion("STRING in", values, "string");
+        public Criteria andTextIn(List<String> values) {
+            addCriterion("TEXT in", values, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringNotIn(List<String> values) {
-            addCriterion("STRING not in", values, "string");
+        public Criteria andTextNotIn(List<String> values) {
+            addCriterion("TEXT not in", values, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringBetween(String value1, String value2) {
-            addCriterion("STRING between", value1, value2, "string");
+        public Criteria andTextBetween(String value1, String value2) {
+            addCriterion("TEXT between", value1, value2, "text");
             return (Criteria) this;
         }
 
-        public Criteria andStringNotBetween(String value1, String value2) {
-            addCriterion("STRING not between", value1, value2, "string");
+        public Criteria andTextNotBetween(String value1, String value2) {
+            addCriterion("TEXT not between", value1, value2, "text");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextIsNull() {
+            addCriterion("LONG_TEXT is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextIsNotNull() {
+            addCriterion("LONG_TEXT is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextEqualTo(String value) {
+            addCriterion("LONG_TEXT =", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextNotEqualTo(String value) {
+            addCriterion("LONG_TEXT <>", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextGreaterThan(String value) {
+            addCriterion("LONG_TEXT >", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextGreaterThanOrEqualTo(String value) {
+            addCriterion("LONG_TEXT >=", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextLessThan(String value) {
+            addCriterion("LONG_TEXT <", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextLessThanOrEqualTo(String value) {
+            addCriterion("LONG_TEXT <=", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextLike(String value) {
+            addCriterion("LONG_TEXT like", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextNotLike(String value) {
+            addCriterion("LONG_TEXT not like", value, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextIn(List<String> values) {
+            addCriterion("LONG_TEXT in", values, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextNotIn(List<String> values) {
+            addCriterion("LONG_TEXT not in", values, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextBetween(String value1, String value2) {
+            addCriterion("LONG_TEXT between", value1, value2, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andLongTextNotBetween(String value1, String value2) {
+            addCriterion("LONG_TEXT not between", value1, value2, "longText");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberIsNull() {
+            addCriterion("NUMBER is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberIsNotNull() {
+            addCriterion("NUMBER is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberEqualTo(Integer value) {
+            addCriterion("NUMBER =", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberNotEqualTo(Integer value) {
+            addCriterion("NUMBER <>", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberGreaterThan(Integer value) {
+            addCriterion("NUMBER >", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberGreaterThanOrEqualTo(Integer value) {
+            addCriterion("NUMBER >=", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberLessThan(Integer value) {
+            addCriterion("NUMBER <", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberLessThanOrEqualTo(Integer value) {
+            addCriterion("NUMBER <=", value, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberIn(List<Integer> values) {
+            addCriterion("NUMBER in", values, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberNotIn(List<Integer> values) {
+            addCriterion("NUMBER not in", values, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberBetween(Integer value1, Integer value2) {
+            addCriterion("NUMBER between", value1, value2, "number");
+            return (Criteria) this;
+        }
+
+        public Criteria andNumberNotBetween(Integer value1, Integer value2) {
+            addCriterion("NUMBER not between", value1, value2, "number");
             return (Criteria) this;
         }
     }
