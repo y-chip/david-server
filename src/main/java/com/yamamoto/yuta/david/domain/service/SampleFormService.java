@@ -1,5 +1,6 @@
 package com.yamamoto.yuta.david.domain.service;
 
+import com.yamamoto.yuta.david.domain.exception.ValidationException;
 import com.yamamoto.yuta.david.infrastructure.repository.SampleRepository;
 import com.yamamoto.yuta.david.infrastructure.repository.entity.Sample;
 import org.springframework.stereotype.Service;
@@ -19,8 +20,17 @@ public class SampleFormService {
     }
 
     public Sample save(Sample sample) {
+
+        validate(sample);
+
         sample.setId(1);
         sampleRepository.save(sample);
         return this.get();
+    }
+
+    void validate(Sample sample) {
+        if (sample.getText().equals("hoge")) {
+            throw new ValidationException("text", "hoge以外の文字を入力してください。");
+        }
     }
 }
