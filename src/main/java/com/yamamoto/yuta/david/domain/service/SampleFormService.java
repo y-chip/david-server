@@ -30,7 +30,7 @@ public class SampleFormService {
 
     void validate(Sample sample) {
         if (sample.getText().equals("hoge")) {
-            throw new ValidationException("text", "hoge以外の文字を入力してください。");
+            throw new ValidationException("sample.text", "hoge以外の文字を入力してください。");
         }
     }
 }
