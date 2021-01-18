@@ -453,6 +453,66 @@ public class SampleExample {
             addCriterion("NUMBER not between", value1, value2, "number");
             return (Criteria) this;
         }
+
+        public Criteria andBoolIsNull() {
+            addCriterion("BOOL is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolIsNotNull() {
+            addCriterion("BOOL is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolEqualTo(Boolean value) {
+            addCriterion("BOOL =", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolNotEqualTo(Boolean value) {
+            addCriterion("BOOL <>", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolGreaterThan(Boolean value) {
+            addCriterion("BOOL >", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("BOOL >=", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolLessThan(Boolean value) {
+            addCriterion("BOOL <", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolLessThanOrEqualTo(Boolean value) {
+            addCriterion("BOOL <=", value, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolIn(List<Boolean> values) {
+            addCriterion("BOOL in", values, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolNotIn(List<Boolean> values) {
+            addCriterion("BOOL not in", values, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolBetween(Boolean value1, Boolean value2) {
+            addCriterion("BOOL between", value1, value2, "bool");
+            return (Criteria) this;
+        }
+
+        public Criteria andBoolNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("BOOL not between", value1, value2, "bool");
+            return (Criteria) this;
+        }
     }
 
     /**
