@@ -33,6 +33,7 @@
                              targetProject="../src/gen/java"/>
 
         <table tableName="SAMPLE"/>
+        <table tableName="MASTER"/>
 
     </context>
 </generatorConfiguration>
