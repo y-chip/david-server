@@ -601,6 +601,66 @@ public class SampleExample {
             addCriterionForJDBCDate("DATE_VAL not between", value1, value2, "dateVal");
             return (Criteria) this;
         }
+
+        public Criteria andSelectValIsNull() {
+            addCriterion("SELECT_VAL is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValIsNotNull() {
+            addCriterion("SELECT_VAL is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValEqualTo(Integer value) {
+            addCriterion("SELECT_VAL =", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValNotEqualTo(Integer value) {
+            addCriterion("SELECT_VAL <>", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValGreaterThan(Integer value) {
+            addCriterion("SELECT_VAL >", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValGreaterThanOrEqualTo(Integer value) {
+            addCriterion("SELECT_VAL >=", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValLessThan(Integer value) {
+            addCriterion("SELECT_VAL <", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValLessThanOrEqualTo(Integer value) {
+            addCriterion("SELECT_VAL <=", value, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValIn(List<Integer> values) {
+            addCriterion("SELECT_VAL in", values, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValNotIn(List<Integer> values) {
+            addCriterion("SELECT_VAL not in", values, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValBetween(Integer value1, Integer value2) {
+            addCriterion("SELECT_VAL between", value1, value2, "selectVal");
+            return (Criteria) this;
+        }
+
+        public Criteria andSelectValNotBetween(Integer value1, Integer value2) {
+            addCriterion("SELECT_VAL not between", value1, value2, "selectVal");
+            return (Criteria) this;
+        }
     }
 
     /**
