@@ -254,73 +254,73 @@ public class MasterExample {
             return (Criteria) this;
         }
 
-        public Criteria andTextIsNull() {
-            addCriterion("TEXT is null");
+        public Criteria andNameIsNull() {
+            addCriterion("NAME is null");
             return (Criteria) this;
         }
 
-        public Criteria andTextIsNotNull() {
-            addCriterion("TEXT is not null");
+        public Criteria andNameIsNotNull() {
+            addCriterion("NAME is not null");
             return (Criteria) this;
         }
 
-        public Criteria andTextEqualTo(String value) {
-            addCriterion("TEXT =", value, "text");
+        public Criteria andNameEqualTo(String value) {
+            addCriterion("NAME =", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotEqualTo(String value) {
-            addCriterion("TEXT <>", value, "text");
+        public Criteria andNameNotEqualTo(String value) {
+            addCriterion("NAME <>", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextGreaterThan(String value) {
-            addCriterion("TEXT >", value, "text");
+        public Criteria andNameGreaterThan(String value) {
+            addCriterion("NAME >", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextGreaterThanOrEqualTo(String value) {
-            addCriterion("TEXT >=", value, "text");
+        public Criteria andNameGreaterThanOrEqualTo(String value) {
+            addCriterion("NAME >=", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextLessThan(String value) {
-            addCriterion("TEXT <", value, "text");
+        public Criteria andNameLessThan(String value) {
+            addCriterion("NAME <", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextLessThanOrEqualTo(String value) {
-            addCriterion("TEXT <=", value, "text");
+        public Criteria andNameLessThanOrEqualTo(String value) {
+            addCriterion("NAME <=", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextLike(String value) {
-            addCriterion("TEXT like", value, "text");
+        public Criteria andNameLike(String value) {
+            addCriterion("NAME like", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotLike(String value) {
-            addCriterion("TEXT not like", value, "text");
+        public Criteria andNameNotLike(String value) {
+            addCriterion("NAME not like", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextIn(List<String> values) {
-            addCriterion("TEXT in", values, "text");
+        public Criteria andNameIn(List<String> values) {
+            addCriterion("NAME in", values, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotIn(List<String> values) {
-            addCriterion("TEXT not in", values, "text");
+        public Criteria andNameNotIn(List<String> values) {
+            addCriterion("NAME not in", values, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextBetween(String value1, String value2) {
-            addCriterion("TEXT between", value1, value2, "text");
+        public Criteria andNameBetween(String value1, String value2) {
+            addCriterion("NAME between", value1, value2, "name");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotBetween(String value1, String value2) {
-            addCriterion("TEXT not between", value1, value2, "text");
+        public Criteria andNameNotBetween(String value1, String value2) {
+            addCriterion("NAME not between", value1, value2, "name");
             return (Criteria) this;
         }
     }

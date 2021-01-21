@@ -282,383 +282,383 @@ public class SampleExample {
             return (Criteria) this;
         }
 
-        public Criteria andTextIsNull() {
-            addCriterion("TEXT is null");
+        public Criteria andFieldTextIsNull() {
+            addCriterion("FIELD_TEXT is null");
             return (Criteria) this;
         }
 
-        public Criteria andTextIsNotNull() {
-            addCriterion("TEXT is not null");
+        public Criteria andFieldTextIsNotNull() {
+            addCriterion("FIELD_TEXT is not null");
             return (Criteria) this;
         }
 
-        public Criteria andTextEqualTo(String value) {
-            addCriterion("TEXT =", value, "text");
+        public Criteria andFieldTextEqualTo(String value) {
+            addCriterion("FIELD_TEXT =", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotEqualTo(String value) {
-            addCriterion("TEXT <>", value, "text");
+        public Criteria andFieldTextNotEqualTo(String value) {
+            addCriterion("FIELD_TEXT <>", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextGreaterThan(String value) {
-            addCriterion("TEXT >", value, "text");
+        public Criteria andFieldTextGreaterThan(String value) {
+            addCriterion("FIELD_TEXT >", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextGreaterThanOrEqualTo(String value) {
-            addCriterion("TEXT >=", value, "text");
+        public Criteria andFieldTextGreaterThanOrEqualTo(String value) {
+            addCriterion("FIELD_TEXT >=", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextLessThan(String value) {
-            addCriterion("TEXT <", value, "text");
+        public Criteria andFieldTextLessThan(String value) {
+            addCriterion("FIELD_TEXT <", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextLessThanOrEqualTo(String value) {
-            addCriterion("TEXT <=", value, "text");
+        public Criteria andFieldTextLessThanOrEqualTo(String value) {
+            addCriterion("FIELD_TEXT <=", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextLike(String value) {
-            addCriterion("TEXT like", value, "text");
+        public Criteria andFieldTextLike(String value) {
+            addCriterion("FIELD_TEXT like", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotLike(String value) {
-            addCriterion("TEXT not like", value, "text");
+        public Criteria andFieldTextNotLike(String value) {
+            addCriterion("FIELD_TEXT not like", value, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextIn(List<String> values) {
-            addCriterion("TEXT in", values, "text");
+        public Criteria andFieldTextIn(List<String> values) {
+            addCriterion("FIELD_TEXT in", values, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotIn(List<String> values) {
-            addCriterion("TEXT not in", values, "text");
+        public Criteria andFieldTextNotIn(List<String> values) {
+            addCriterion("FIELD_TEXT not in", values, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextBetween(String value1, String value2) {
-            addCriterion("TEXT between", value1, value2, "text");
+        public Criteria andFieldTextBetween(String value1, String value2) {
+            addCriterion("FIELD_TEXT between", value1, value2, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andTextNotBetween(String value1, String value2) {
-            addCriterion("TEXT not between", value1, value2, "text");
+        public Criteria andFieldTextNotBetween(String value1, String value2) {
+            addCriterion("FIELD_TEXT not between", value1, value2, "fieldText");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextIsNull() {
-            addCriterion("LONG_TEXT is null");
+        public Criteria andFieldTextareaIsNull() {
+            addCriterion("FIELD_TEXTAREA is null");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextIsNotNull() {
-            addCriterion("LONG_TEXT is not null");
+        public Criteria andFieldTextareaIsNotNull() {
+            addCriterion("FIELD_TEXTAREA is not null");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextEqualTo(String value) {
-            addCriterion("LONG_TEXT =", value, "longText");
+        public Criteria andFieldTextareaEqualTo(String value) {
+            addCriterion("FIELD_TEXTAREA =", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextNotEqualTo(String value) {
-            addCriterion("LONG_TEXT <>", value, "longText");
+        public Criteria andFieldTextareaNotEqualTo(String value) {
+            addCriterion("FIELD_TEXTAREA <>", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextGreaterThan(String value) {
-            addCriterion("LONG_TEXT >", value, "longText");
+        public Criteria andFieldTextareaGreaterThan(String value) {
+            addCriterion("FIELD_TEXTAREA >", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextGreaterThanOrEqualTo(String value) {
-            addCriterion("LONG_TEXT >=", value, "longText");
+        public Criteria andFieldTextareaGreaterThanOrEqualTo(String value) {
+            addCriterion("FIELD_TEXTAREA >=", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextLessThan(String value) {
-            addCriterion("LONG_TEXT <", value, "longText");
+        public Criteria andFieldTextareaLessThan(String value) {
+            addCriterion("FIELD_TEXTAREA <", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextLessThanOrEqualTo(String value) {
-            addCriterion("LONG_TEXT <=", value, "longText");
+        public Criteria andFieldTextareaLessThanOrEqualTo(String value) {
+            addCriterion("FIELD_TEXTAREA <=", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextLike(String value) {
-            addCriterion("LONG_TEXT like", value, "longText");
+        public Criteria andFieldTextareaLike(String value) {
+            addCriterion("FIELD_TEXTAREA like", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextNotLike(String value) {
-            addCriterion("LONG_TEXT not like", value, "longText");
+        public Criteria andFieldTextareaNotLike(String value) {
+            addCriterion("FIELD_TEXTAREA not like", value, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextIn(List<String> values) {
-            addCriterion("LONG_TEXT in", values, "longText");
+        public Criteria andFieldTextareaIn(List<String> values) {
+            addCriterion("FIELD_TEXTAREA in", values, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextNotIn(List<String> values) {
-            addCriterion("LONG_TEXT not in", values, "longText");
+        public Criteria andFieldTextareaNotIn(List<String> values) {
+            addCriterion("FIELD_TEXTAREA not in", values, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextBetween(String value1, String value2) {
-            addCriterion("LONG_TEXT between", value1, value2, "longText");
+        public Criteria andFieldTextareaBetween(String value1, String value2) {
+            addCriterion("FIELD_TEXTAREA between", value1, value2, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andLongTextNotBetween(String value1, String value2) {
-            addCriterion("LONG_TEXT not between", value1, value2, "longText");
+        public Criteria andFieldTextareaNotBetween(String value1, String value2) {
+            addCriterion("FIELD_TEXTAREA not between", value1, value2, "fieldTextarea");
             return (Criteria) this;
         }
 
-        public Criteria andNumberIsNull() {
-            addCriterion("NUMBER is null");
+        public Criteria andFieldNumberIsNull() {
+            addCriterion("FIELD_NUMBER is null");
             return (Criteria) this;
         }
 
-        public Criteria andNumberIsNotNull() {
-            addCriterion("NUMBER is not null");
+        public Criteria andFieldNumberIsNotNull() {
+            addCriterion("FIELD_NUMBER is not null");
             return (Criteria) this;
         }
 
-        public Criteria andNumberEqualTo(Integer value) {
-            addCriterion("NUMBER =", value, "number");
+        public Criteria andFieldNumberEqualTo(Integer value) {
+            addCriterion("FIELD_NUMBER =", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberNotEqualTo(Integer value) {
-            addCriterion("NUMBER <>", value, "number");
+        public Criteria andFieldNumberNotEqualTo(Integer value) {
+            addCriterion("FIELD_NUMBER <>", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberGreaterThan(Integer value) {
-            addCriterion("NUMBER >", value, "number");
+        public Criteria andFieldNumberGreaterThan(Integer value) {
+            addCriterion("FIELD_NUMBER >", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberGreaterThanOrEqualTo(Integer value) {
-            addCriterion("NUMBER >=", value, "number");
+        public Criteria andFieldNumberGreaterThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_NUMBER >=", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberLessThan(Integer value) {
-            addCriterion("NUMBER <", value, "number");
+        public Criteria andFieldNumberLessThan(Integer value) {
+            addCriterion("FIELD_NUMBER <", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberLessThanOrEqualTo(Integer value) {
-            addCriterion("NUMBER <=", value, "number");
+        public Criteria andFieldNumberLessThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_NUMBER <=", value, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberIn(List<Integer> values) {
-            addCriterion("NUMBER in", values, "number");
+        public Criteria andFieldNumberIn(List<Integer> values) {
+            addCriterion("FIELD_NUMBER in", values, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberNotIn(List<Integer> values) {
-            addCriterion("NUMBER not in", values, "number");
+        public Criteria andFieldNumberNotIn(List<Integer> values) {
+            addCriterion("FIELD_NUMBER not in", values, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberBetween(Integer value1, Integer value2) {
-            addCriterion("NUMBER between", value1, value2, "number");
+        public Criteria andFieldNumberBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_NUMBER between", value1, value2, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andNumberNotBetween(Integer value1, Integer value2) {
-            addCriterion("NUMBER not between", value1, value2, "number");
+        public Criteria andFieldNumberNotBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_NUMBER not between", value1, value2, "fieldNumber");
             return (Criteria) this;
         }
 
-        public Criteria andBoolIsNull() {
-            addCriterion("BOOL is null");
+        public Criteria andFieldSwitchIsNull() {
+            addCriterion("FIELD_SWITCH is null");
             return (Criteria) this;
         }
 
-        public Criteria andBoolIsNotNull() {
-            addCriterion("BOOL is not null");
+        public Criteria andFieldSwitchIsNotNull() {
+            addCriterion("FIELD_SWITCH is not null");
             return (Criteria) this;
         }
 
-        public Criteria andBoolEqualTo(Boolean value) {
-            addCriterion("BOOL =", value, "bool");
+        public Criteria andFieldSwitchEqualTo(Boolean value) {
+            addCriterion("FIELD_SWITCH =", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolNotEqualTo(Boolean value) {
-            addCriterion("BOOL <>", value, "bool");
+        public Criteria andFieldSwitchNotEqualTo(Boolean value) {
+            addCriterion("FIELD_SWITCH <>", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolGreaterThan(Boolean value) {
-            addCriterion("BOOL >", value, "bool");
+        public Criteria andFieldSwitchGreaterThan(Boolean value) {
+            addCriterion("FIELD_SWITCH >", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("BOOL >=", value, "bool");
+        public Criteria andFieldSwitchGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("FIELD_SWITCH >=", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolLessThan(Boolean value) {
-            addCriterion("BOOL <", value, "bool");
+        public Criteria andFieldSwitchLessThan(Boolean value) {
+            addCriterion("FIELD_SWITCH <", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolLessThanOrEqualTo(Boolean value) {
-            addCriterion("BOOL <=", value, "bool");
+        public Criteria andFieldSwitchLessThanOrEqualTo(Boolean value) {
+            addCriterion("FIELD_SWITCH <=", value, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolIn(List<Boolean> values) {
-            addCriterion("BOOL in", values, "bool");
+        public Criteria andFieldSwitchIn(List<Boolean> values) {
+            addCriterion("FIELD_SWITCH in", values, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolNotIn(List<Boolean> values) {
-            addCriterion("BOOL not in", values, "bool");
+        public Criteria andFieldSwitchNotIn(List<Boolean> values) {
+            addCriterion("FIELD_SWITCH not in", values, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolBetween(Boolean value1, Boolean value2) {
-            addCriterion("BOOL between", value1, value2, "bool");
+        public Criteria andFieldSwitchBetween(Boolean value1, Boolean value2) {
+            addCriterion("FIELD_SWITCH between", value1, value2, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andBoolNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("BOOL not between", value1, value2, "bool");
+        public Criteria andFieldSwitchNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("FIELD_SWITCH not between", value1, value2, "fieldSwitch");
             return (Criteria) this;
         }
 
-        public Criteria andDateValIsNull() {
-            addCriterion("DATE_VAL is null");
+        public Criteria andFieldDateIsNull() {
+            addCriterion("FIELD_DATE is null");
             return (Criteria) this;
         }
 
-        public Criteria andDateValIsNotNull() {
-            addCriterion("DATE_VAL is not null");
+        public Criteria andFieldDateIsNotNull() {
+            addCriterion("FIELD_DATE is not null");
             return (Criteria) this;
         }
 
-        public Criteria andDateValEqualTo(Date value) {
-            addCriterionForJDBCDate("DATE_VAL =", value, "dateVal");
+        public Criteria andFieldDateEqualTo(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE =", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValNotEqualTo(Date value) {
-            addCriterionForJDBCDate("DATE_VAL <>", value, "dateVal");
+        public Criteria andFieldDateNotEqualTo(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE <>", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValGreaterThan(Date value) {
-            addCriterionForJDBCDate("DATE_VAL >", value, "dateVal");
+        public Criteria andFieldDateGreaterThan(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE >", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValGreaterThanOrEqualTo(Date value) {
-            addCriterionForJDBCDate("DATE_VAL >=", value, "dateVal");
+        public Criteria andFieldDateGreaterThanOrEqualTo(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE >=", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValLessThan(Date value) {
-            addCriterionForJDBCDate("DATE_VAL <", value, "dateVal");
+        public Criteria andFieldDateLessThan(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE <", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValLessThanOrEqualTo(Date value) {
-            addCriterionForJDBCDate("DATE_VAL <=", value, "dateVal");
+        public Criteria andFieldDateLessThanOrEqualTo(Date value) {
+            addCriterionForJDBCDate("FIELD_DATE <=", value, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValIn(List<Date> values) {
-            addCriterionForJDBCDate("DATE_VAL in", values, "dateVal");
+        public Criteria andFieldDateIn(List<Date> values) {
+            addCriterionForJDBCDate("FIELD_DATE in", values, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValNotIn(List<Date> values) {
-            addCriterionForJDBCDate("DATE_VAL not in", values, "dateVal");
+        public Criteria andFieldDateNotIn(List<Date> values) {
+            addCriterionForJDBCDate("FIELD_DATE not in", values, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValBetween(Date value1, Date value2) {
-            addCriterionForJDBCDate("DATE_VAL between", value1, value2, "dateVal");
+        public Criteria andFieldDateBetween(Date value1, Date value2) {
+            addCriterionForJDBCDate("FIELD_DATE between", value1, value2, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andDateValNotBetween(Date value1, Date value2) {
-            addCriterionForJDBCDate("DATE_VAL not between", value1, value2, "dateVal");
+        public Criteria andFieldDateNotBetween(Date value1, Date value2) {
+            addCriterionForJDBCDate("FIELD_DATE not between", value1, value2, "fieldDate");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValIsNull() {
-            addCriterion("SELECT_VAL is null");
+        public Criteria andFieldSelectIsNull() {
+            addCriterion("FIELD_SELECT is null");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValIsNotNull() {
-            addCriterion("SELECT_VAL is not null");
+        public Criteria andFieldSelectIsNotNull() {
+            addCriterion("FIELD_SELECT is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValEqualTo(Integer value) {
-            addCriterion("SELECT_VAL =", value, "selectVal");
+        public Criteria andFieldSelectEqualTo(Integer value) {
+            addCriterion("FIELD_SELECT =", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValNotEqualTo(Integer value) {
-            addCriterion("SELECT_VAL <>", value, "selectVal");
+        public Criteria andFieldSelectNotEqualTo(Integer value) {
+            addCriterion("FIELD_SELECT <>", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValGreaterThan(Integer value) {
-            addCriterion("SELECT_VAL >", value, "selectVal");
+        public Criteria andFieldSelectGreaterThan(Integer value) {
+            addCriterion("FIELD_SELECT >", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValGreaterThanOrEqualTo(Integer value) {
-            addCriterion("SELECT_VAL >=", value, "selectVal");
+        public Criteria andFieldSelectGreaterThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_SELECT >=", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValLessThan(Integer value) {
-            addCriterion("SELECT_VAL <", value, "selectVal");
+        public Criteria andFieldSelectLessThan(Integer value) {
+            addCriterion("FIELD_SELECT <", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValLessThanOrEqualTo(Integer value) {
-            addCriterion("SELECT_VAL <=", value, "selectVal");
+        public Criteria andFieldSelectLessThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_SELECT <=", value, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValIn(List<Integer> values) {
-            addCriterion("SELECT_VAL in", values, "selectVal");
+        public Criteria andFieldSelectIn(List<Integer> values) {
+            addCriterion("FIELD_SELECT in", values, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValNotIn(List<Integer> values) {
-            addCriterion("SELECT_VAL not in", values, "selectVal");
+        public Criteria andFieldSelectNotIn(List<Integer> values) {
+            addCriterion("FIELD_SELECT not in", values, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValBetween(Integer value1, Integer value2) {
-            addCriterion("SELECT_VAL between", value1, value2, "selectVal");
+        public Criteria andFieldSelectBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_SELECT between", value1, value2, "fieldSelect");
             return (Criteria) this;
         }
 
-        public Criteria andSelectValNotBetween(Integer value1, Integer value2) {
-            addCriterion("SELECT_VAL not between", value1, value2, "selectVal");
+        public Criteria andFieldSelectNotBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_SELECT not between", value1, value2, "fieldSelect");
             return (Criteria) this;
         }
     }
