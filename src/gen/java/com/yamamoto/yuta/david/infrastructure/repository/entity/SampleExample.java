@@ -661,6 +661,66 @@ public class SampleExample {
             addCriterion("FIELD_SELECT not between", value1, value2, "fieldSelect");
             return (Criteria) this;
         }
+
+        public Criteria andFieldRadioIsNull() {
+            addCriterion("FIELD_RADIO is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioIsNotNull() {
+            addCriterion("FIELD_RADIO is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioEqualTo(Integer value) {
+            addCriterion("FIELD_RADIO =", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioNotEqualTo(Integer value) {
+            addCriterion("FIELD_RADIO <>", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioGreaterThan(Integer value) {
+            addCriterion("FIELD_RADIO >", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioGreaterThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_RADIO >=", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioLessThan(Integer value) {
+            addCriterion("FIELD_RADIO <", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioLessThanOrEqualTo(Integer value) {
+            addCriterion("FIELD_RADIO <=", value, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioIn(List<Integer> values) {
+            addCriterion("FIELD_RADIO in", values, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioNotIn(List<Integer> values) {
+            addCriterion("FIELD_RADIO not in", values, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_RADIO between", value1, value2, "fieldRadio");
+            return (Criteria) this;
+        }
+
+        public Criteria andFieldRadioNotBetween(Integer value1, Integer value2) {
+            addCriterion("FIELD_RADIO not between", value1, value2, "fieldRadio");
+            return (Criteria) this;
+        }
     }
 
     /**
