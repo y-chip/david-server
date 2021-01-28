@@ -2,7 +2,6 @@ package com.yamamoto.yuta.david.application.controller;
 
 import com.yamamoto.yuta.david.domain.service.MasterService;
 import com.yamamoto.yuta.david.infrastructure.repository.entity.Master;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/master")
-@CrossOrigin("http://localhost:4200")
 public class MasterController {
 
     private final MasterService service;

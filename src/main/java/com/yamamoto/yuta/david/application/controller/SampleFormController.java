@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/sample-form")
-@CrossOrigin("http://localhost:4200")
 public class SampleFormController {
 
     private final SampleFormService service;
